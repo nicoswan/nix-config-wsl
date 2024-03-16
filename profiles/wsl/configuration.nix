@@ -26,15 +26,15 @@ in
 
   wsl = {
     enable = true;
-    automountPath = "/mnt";
+    wslConf.automount.root = "/mnt";
     defaultUser = userSettings.username;
     startMenuLaunchers = true;
 
     # Enable native Docker support
-    docker-native.enable = true;
+    #docker-native.enable = true;
 
     # Enable integration with Docker Desktop (needs to be installed)
-    docker-desktop.enable = true;
+    #docker-desktop.enable = true;
 
   };
 
@@ -106,6 +106,7 @@ in
       pkgs.xdg-desktop-portal
       pkgs.xdg-desktop-portal-gtk
     ];
+    config.common.default = "*";
   };
 
 

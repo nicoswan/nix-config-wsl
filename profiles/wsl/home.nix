@@ -21,7 +21,7 @@
               ../../user/lang/cc/cc.nix # C and C++ tools
             ];
 
-  home.stateVersion = "23.11"; 
+  home.stateVersion = "23.11";  
 
   home.packages = with pkgs; [
     # Core

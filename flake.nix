@@ -16,9 +16,9 @@
 
       # ----- USER SETTINGS ----- #
       userSettings = rec {
-        username = "nixos";
+        username = "nicoswan";
         name = "Nico Swan"; # name/identifier
-        email = "@gmail.com"; # email (used for certain configurations)
+        email = "nicoswan@gmail.com"; # email (used for certain configurations)
         dotfilesDir = "~/.dotfiles"; # absolute path of the local repo
         # editor spawning translator
         # generates a command that can be used to spawn editor inside a gui

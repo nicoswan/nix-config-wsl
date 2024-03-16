@@ -1,7 +1,6 @@
-#+title: NixOS WSL Setup and Config
-#+author: Nico Swan
+# NixOS WSL Setup and Config
 
-[[https://github.com/nicoswan/nix-config-wsl][Repo Link (GitHub)]]
+[Repo Link (GitHub)](https://github.com/nicoswan/nix-config-wsl)
 
 ** What is this repository?
 These are my dotfiles (configuration files) for NixOS on WSL setup .
@@ -40,4 +39,7 @@ sudo nix-channel --update
 sudo nixos-rebuild switch
 ```
 
+## Installation
+
+[Installation note](./install.md) 
 
